@@ -6,7 +6,11 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch index"
+    "dev": "node --watch index",
+    "db:push": "npx drizzle-kit push",
+    "db:studio": "npx drizzle-kit studio",
+    "db:generate": "npx drizzle-kit generate",
+    "db:migrate": "npx drizzle-kit migrate"
   },
   "keywords": [],
   "author": "",
